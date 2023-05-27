@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+
+}
+.link{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 20%;
+}
+.right{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation.link a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background:url("./assets/pizza1\ 1.jpg");
+    background-position: center;
+    color: white;
+    background-size: cover;
+}
+.desc1{
+    z-index: 10000000;
+}
+.desc1 p{
+    float: left;
+}
+.descaboutus{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin: 0 auto;
+}
+.descaboutus p{
+    color:white;
+    text-align: justify;
+    background-color: bisque;
+}
+.about h1{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline red;
+}
+.imagegrid img{
+    height: 20vh;
+    width: 10vw;
+    margin-right: 2rem;
+}
+.pizzaimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    width: 100%;
+}
+.pizzaimage p{
+    width: 50%;
+    text-align: center;
+}
+.imagegrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 0 auto;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    padding: 3rem;
+     
+
+}
+.imagegrid .pizzaimage p{
+    text-align: left;
+}
+
+.copywrite{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-direction: column;
+    color:white;
+    margin: 0 auto;
+}
